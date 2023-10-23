@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agency</title>
+
+    <!-- Font Awesome 6 -->
+    <link
+      rel="stylesheet"
+      href="/assets/vendor/fontawesome-free-6.4.0-web/css/all.min.css"
+    />
+
+    <!-- Bootstrap 5 -->
+    <link
+      rel="stylesheet"
+      href="/assets/vendor/bootstrap-5.2.3-dist/css/bootstrap.min.css"
+    />
+
+    <!-- AOS Animation -->
+    <link rel="stylesheet" href="/assets/vendor/aos-master/dist/aos.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/assets/css/style.css" />
+  </head>
+
+  <body data-bs-spy="scroll" data-bs-target="#navbar-scroll">
+    <!-- Start | Navigation Bar -->
+    <nav
+      class="navbar navbar-expand-md navbar-light bg-light fixed-top"
+      id="navbar-scroll"
+    >
+      <div class="container">
+        <a href="#" class="navbar-brand">Agency</a>
+        <button
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarMenu"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMenu">
+          <ul class="navbar-nav ms-auto my-3 my-md-0 fw-bolder">
+            <li class="nav-item">
+              <a href="#home" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#services" class="nav-link">Services</a>
+            </li>
+            <li class="nav-item">
+              <a href="#pricing" class="nav-link">Pricing</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End | Navigation Bar -->
+
+    <!-- Start | Hero Section -->
+    <section id="home" class="container">
+      <div class="row min-vh-100">
+        <div
+          class="col-lg-6 d-flex flex-column justify-content-center order-1 order-lg-0"
+        >
+          <h1 class="fw-bold pb-4" data-aos="fade-up">
+            We offer modern solutions for growing your business
+          </h1>
+          <h3 class="fs-4 pb-4" data-aos="fade-up" data-aos-delay="200">
+            Elevate your business with innovative strategies and expert
+            solutions. Our team is dedicated to your success.
+          </h3>
+          <div data-aos="fade-up" data-aos-delay="300">
+            <a href="#about" class="btn btn-info btn-lg text-white">
+              Get Started <i class="fas fa-long-arrow-alt-right ms-3"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-6 d-flex align-self-center">
+          <img
+            src="/assets/img/why-us.png"
+            alt=""
+            class="img-fluid"
+            data-aos="fade-left"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- End | Hero Section -->
+
+    <!-- Start | The Info Box -->
+    <div class="container my-5">
+      <div class="row mb-5">
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div
+            class="d-flex justify-content-around shadow-lg align-items-center p-4 rounded"
+            data-aos="fade-up"
+          >
+            <div>
+              <i class="far fa-smile fa-3x text-primary"></i>
+            </div>
+            <div>
+              <p class="fs-1 fw-bolder mb-0">242</p>
+              <p class="mb-1">Happy Clients</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div
+            class="d-flex justify-content-around shadow-lg align-items-center p-4 rounded"
+            data-aos="fade-up"
+            data-aos-delay="150"
+          >
+            <div>
+              <i class="fas fa-trophy fa-3x text-warning"></i>
+            </div>
+            <div>
+              <p class="fs-1 fw-bolder mb-0">242</p>
+              <p class="mb-1">Awards Won</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div
+            class="d-flex justify-content-around shadow-lg align-items-center p-4 rounded"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
+            <div>
+              <i class="fas fa-file-invoice fa-3x text-success"></i>
+            </div>
+            <div>
+              <p class="fs-1 fw-bolder mb-0">242</p>
+              <p class="mb-1">Projects Completed</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div
+            class="d-flex justify-content-around shadow-lg align-items-center p-4 rounded"
+            data-aos="fade-up"
+            data-aos-delay="450"
+          >
+            <div>
+              <i class="fas fa-user-friends fa-3x text-danger"></i>
+            </div>
+            <div>
+              <p class="fs-1 fw-bolder mb-0">15</p>
+              <p class="mb-1">Team Members</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End | The Info Box -->
+
+    <!-- Start | About Section -->
+    <section id="about" class="bg-light py-5">
+      <div class="container">
+        <div class="text-center py-5">
+          <h2
+            class="fw-bolder border-bottom border-info border-3 d-inline-block pb-1"
+            data-aos="zoom-in"
+          >
+            About
+          </h2>
+          <p class="fs-5 mt-3" data-aos="zoom-in-up" data-aos-delay="50">
+            We are a forward-thinking agency dedicated to helping businesses
+            succeed. Our journey is built on trust, creativity, and excellence.
+          </p>
+        </div>
+        <div class="col-xl-8 mx-auto mb-5">
+          <div class="accordion">
+            <!-- Accordion Item -->
+            <div
+              class="accordion-item rounded-3 shadow-sm mb-3"
+              data-aos="fade-up"
+            >
+              <h5 class="accordion-header rounded-3 overflow-hidden">
+                <button
+                  class="accordion-button collapsed"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                >
+                  Short history about the company.
+                </button>
+              </h5>
+              <div class="accordion-collapse collapse" id="collapseOne">
+                <div class="accordion-body">
+                  Our company was founded in 2010 with a vision to provide
+                  innovative solutions to businesses. Since then, we have been
+                  on a journey of growth and success.
+                </div>
+              </div>
+            </div>
+
+            <!-- Accordion Item -->
+            <div
+              class="accordion-item rounded-3 shadow-sm mb-3"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <h5 class="accordion-header rounded-3 overflow-hidden">
+                <button
+                  class="accordion-button collapsed"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                >
+                  What we have achieved over the years?
+                </button>
+              </h5>
+              <div class="accordion-collapse collapse" id="collapseTwo">
+                <div class="accordion-body">
+                  Over the years, we have achieved numerous milestones,
+                  including serving 500+ clients, winning multiple awards, and
+                  completing 1000+ successful projects.
+                </div>
+              </div>
+            </div>
+
+            <!-- Accordion Item -->
+            <div
+              class="accordion-item rounded-3 shadow-sm mb-3"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <h5 class="accordion-header rounded-3 overflow-hidden">
+                <button
+                  class="accordion-button collapsed"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                >
+                  Why you should choose us?
+                </button>
+              </h5>
+              <div class="accordion-collapse collapse" id="collapseThree">
+                <div class="accordion-body">
+                  Choose us because we are committed to your success. Our
+                  experienced team, creative solutions, and client-focused
+                  approach make us the right choice for your business.
+                </div>
+              </div>
+            </div>
+
+            <!-- Accordion Item -->
+            <div
+              class="accordion-item rounded-3 shadow-sm mb-3"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <h5 class="accordion-header rounded-3 overflow-hidden">
+                <button
+                  class="accordion-button collapsed"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour"
+                >
+                  What makes us special?
+                </button>
+              </h5>
+              <div class="accordion-collapse collapse" id="collapseFour">
+                <div class="accordion-body">
+                  What sets us apart is our dedication to innovation, quality,
+                  and delivering exceptional results. We are not just a service
+                  provider; we are your partner in success.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End | About Section -->
+
+    <!-- Start | Services Section -->
+    <div id="services" class="container py-5">
+      <div class="text-center py-5">
+        <h2
+          class="fw-bolder border-bottom border-info border-3 d-inline-block pb-1"
+          data-aos="zoom-in"
+        >
+          Services
+        </h2>
+        <p class="fs-5 mt-3" data-aos="zoom-in-up" data-aos-delay="50">
+          Explore our range of services that can help your business thrive and
+          grow.
+        </p>
+      </div>
+      <div class="row pb-5">
+        <!-- Item 1 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div
+            class="shadow-lg p-5 text-center border-bottom border-4 border-success"
+            data-aos="fade-right"
+          >
+            <i class="far fa-file-archive fa-3x text-success pb-4 pt-2"></i>
+            <h4 class="fw-bolder fs-3 pb-3">Web Design</h4>
+            <p>
+              Our web design services are tailored to create engaging,
+              user-friendly websites that represent your brand and drive
+              results.
+            </p>
+            <a href="#" class="text-success fw-bold text-decoration-none">
+              Read More <i class="fas fa-long-arrow-alt-right ms-1"></i>
+            </a>
+          </div>
+        </div>
+        <!-- Item 2 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div
+            class="shadow-lg p-5 text-center border-bottom border-4 border-danger"
+            data-aos="fade-up"
+          >
+            <i class="far fa-file-archive fa-3x text-danger pb-4 pt-2"></i>
+            <h4 class="fw-bolder fs-3 pb-3">Digital Marketing</h4>
+            <p>
+              Our digital marketing solutions drive brand visibility, engage
+              audiences, and increase conversions. Get noticed in the digital
+              world.
+            </p>
+            <a href="#" class="text-danger fw-bold text-decoration-none">
+              Read More <i class="fas fa-long-arrow-alt-right ms-1"></i>
+            </a>
+          </div>
+        </div>
+        <!-- Item 3 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div
+            class="shadow-lg p-5 text-center border-bottom border-4 border-warning"
+            data-aos="fade-left"
+          >
+            <i class="far fa-file-archive fa-3x text-warning pb-4 pt-2"></i>
+            <h4 class="fw-bolder fs-3 pb-3">Consulting Services</h4>
+            <p>
+              Our consulting services provide expert guidance in business
+              strategies, technology, and innovation to help you achieve your
+              goals.
+            </p>
+            <a href="#" class="text-warning fw-bold text-decoration-none">
+              Read More <i class="fas fa-long-arrow-alt-right ms-1"></i>
+            </a>
+          </div>
+        </div>
+        <!-- Item 4 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div
+            class="shadow-lg p-5 text-center border-bottom border-4 border-danger"
+            data-aos="fade-right"
+          >
+            <i class="far fa-file-archive fa-3x text-danger pb-4 pt-2"></i>
+            <h4 class="fw-bolder fs-3 pb-3">E-Commerce Solutions</h4>
+            <p>
+              Our e-commerce solutions help businesses establish and expand
+              their online presence, increase sales, and deliver a seamless
+              shopping experience.
+            </p>
+            <a href="#" class="text-danger fw-bold text-decoration-none">
+              Read More <i class="fas fa-long-arrow-alt-right ms-1"></i>
+            </a>
+          </div>
+        </div>
+        <!-- Item 5 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div
+            class="shadow-lg p-5 text-center border-bottom border-4 border-info"
+            data-aos="fade-up"
+          >
+            <i class="far fa-file-archive fa-3x text-info pb-4 pt-2"></i>
+            <h4 class="fw-bolder fs-3 pb-3">Content Creation</h4>
+            <p>
+              Our content creation services deliver compelling, relevant, and
+              shareable content that resonates with your target audience.
+            </p>
+            <a href="#" class="text-info fw-bold text-decoration-none">
+              Read More <i class="fas fa-long-arrow-alt-right ms-1"></i>
+            </a>
+          </div>
+        </div>
+        <!-- Item 6 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div
+            class="shadow-lg p-5 text-center border-bottom border-4 border-success"
+            data-aos="fade-left"
+          >
+            <i class="far fa-file-archive fa-3x text-success pb-4 pt-2"></i>
+            <h4 class="fw-bolder fs-3 pb-3">Mobile App Development</h4>
+            <p>
+              Our mobile app development services create user-friendly,
+              high-performance apps for iOS and Android platforms.
+            </p>
+            <a href="#" class="text-success fw-bold text-decoration-none">
+              Read More <i class="fas fa-long-arrow-alt-right ms-1"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End | Services Section -->
+
+    <!-- Start | Newsletter Section -->
+    <div class="py-5" style="background: url(/assets/img/cta.jpg) fixed">
+      <div class="container text-white">
+        <div class="row py-5 d-flex align-items-center justify-content-between">
+          <div class="col-lg-9">
+            <h2 class="fw-bold fs-3 pb-3" data-aos="fade-up">
+              Subscribe To Newsletter
+            </h2>
+            <p data-aos="fade-up" data-aos-delay="100">
+              Stay updated with our latest news, tips, and offers. Join our
+              newsletter community.
+            </p>
+          </div>
+          <div class="col-lg-3 text-lg-center" data-aos="fade-left">
+            <a
+              href="#"
+              class="btn btn-outline-info rounded-pill btn-lg text-white"
+              data-bs-target="#subscribeModal"
+              data-bs-toggle="modal"
+            >
+              Subscribe
+            </a>
+          </div>
+        </div>
+        <!-- start | modal -->
+        <div class="modal fade text-dark" id="subscribeModal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Subscribe To Our Newsletter</h5>
+                <button
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <form action="">
+                  <div class="mb-3">
+                    <label for="name" class="col-form-label">Your Name:</label>
+                    <input type="text" class="form-control" id="name" />
+                  </div>
+                  <div class="mb-3">
+                    <label for="email" class="col-form-label"
+                      >Your Email:</label
+                    >
+                    <input type="email" class="form-control" id="email" />
+                  </div>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button
+                  class="btn btn-outline-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+                <button class="btn btn-info text-white">Subscribe</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end | modal -->
+      </div>
+    </div>
+    <!-- End | Newsletter Section -->
+
+    <!-- Start | Pricing Section -->
+    <section id="pricing" class="container py-5">
+      <div class="text-center py-5">
+        <h2
+          class="fw-bolder border-bottom border-3 d-inline-block border-info pb-1"
+          data-aos="zoom-in"
+        >
+          Pricing
+        </h2>
+        <p class="fs-5 mt-3" data-aos="zoom-in-up" data-aos-delay="50">
+          Check out our flexible pricing plans designed to meet your specific
+          needs.
+        </p>
+      </div>
+      <div class="row pb-5">
+        <!-- item 1 -->
+        <div class="col-lg-4 mb-4">
+          <div class="text-center p-5 shadow-lg" data-aos="fade-right">
+            <h4 class="fw-bold py-3">Free Plan</h4>
+            <p class="fs-1 fw-bolder mb-0">$00.<small>00</small></p>
+            <p class="text-info fw-bolder">per month</p>
+            <div class="list py-3">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Basic features included</li>
+                <li class="list-group-item">Limited access to support</li>
+                <li class="list-group-item">Ad-supported experience</li>
+                <li class="list-group-item text-decoration-line-through">
+                  Custom branding not available
+                </li>
+                <li class="list-group-item text-decoration-line-through">
+                  Advanced analytics not included
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- item 2 -->
+        <div class="col-lg-4 mb-4">
+          <div
+            class="text-center p-5 shadow-lg border-top border-bottom border-info border-4"
+            data-aos="fade-up"
+          >
+            <h4 class="fw-bold py-3">Single Plan</h4>
+            <p class="fs-1 fw-bolder mb-0">$49.<small>00</small></p>
+            <p class="text-info fw-bolder">per month</p>
+            <div class="list py-3">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">All basic features included</li>
+                <li class="list-group-item">Priority access to support</li>
+                <li class="list-group-item">Ad-free experience</li>
+                <li class="list-group-item">Custom branding included</li>
+                <li class="list-group-item text-decoration-line-through">
+                  Advanced analytics not included
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- item 3 -->
+        <div class="col-lg-4 mb-4">
+          <div class="text-center p-5 shadow-lg" data-aos="fade-left">
+            <h4 class="fw-bold py-3">Premium Plan</h4>
+            <p class="fs-1 fw-bolder mb-0">$99.<small>00</small></p>
+            <p class="text-info fw-bolder">per month</p>
+            <div class="list py-3">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  All basic and advanced features included
+                </li>
+                <li class="list-group-item">Priority access to support</li>
+                <li class="list-group-item">Ad-free experience</li>
+                <li class="list-group-item">Custom branding included</li>
+                <li class="list-group-item">Advanced analytics included</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End | Pricing Section -->
+
+    <!-- Start | Footer Section -->
+    <footer class="bg-dark text-white py-5">
+      <div class="container">
+        <div class="row pb-3">
+          <div class="col-md-4">
+            <h5 class="fw-bold pb-3">Contact Information</h5>
+            <p>
+              <i class="fas fa-map-marker-alt pe-2"></i>Institut Teknologi Del
+            </p>
+            <p><i class="fas fa-phone-alt pe-2"></i>+1 (555) 123-4567</p>
+            <p><i class="fas fa-envelope pe-2"></i>info@example.com</p>
+          </div>
+          <div class="col-md-4">
+            <h5 class="fw-bold pb-3">Recent Posts</h5>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <a href="#" class="text-white text-decoration-none"
+                  >How to Build a Strong Online Presence</a
+                >
+              </li>
+              <li class="list-group-item">
+                <a href="#" class="text-white text-decoration-none"
+                  >The Benefits of Social Media Marketing</a
+                >
+              </li>
+              <li class="list-group-item">
+                <a href="#" class="text-white text-decoration-none"
+                  >Top SEO Strategies in 2023</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h5 class="fw-bold pb-3">Follow Us</h5>
+            <a href="#" class="btn btn-primary me-2">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" class="btn btn-danger me-2">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#" class="btn btn-info me-2">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" class="btn btn-danger">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col text-center">
+            <p class="fs-6 fw-light">
+              &copy; 2023 - Dwi Paranggi Purba. All Rights Reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End | Footer Section -->
+
+    <!-- jQuery and Bootstrap Bundle with Popper -->
+    <script src="/assets/vendor/jquery-3.6.0/jquery.min.js"></script>
+    <script src="/assets/vendor/bootstrap-5.2.3-dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- AOS Library -->
+    <script src="/assets/vendor/aos-master/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
